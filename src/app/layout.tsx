@@ -1,7 +1,8 @@
 import type { Metadata } from "next";
 import "./globals.css";
-import { Header } from "@/components/Header";
-import { Footer } from "@/components/Footer";
+
+import { Header } from "@/common/Layout/Header";
+import { Footer } from "@/common/Layout/Footer";
 
 export const metadata: Metadata = {
   title: "김다연 포트폴리오",

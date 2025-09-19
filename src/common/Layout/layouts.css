@@ -22,7 +22,7 @@
     }
 
     .footer-menu-title {
-        @apply pb-3 text-lg text-gray-900 font-semibold;
+        @apply pb-3 text-lg font-semibold;
     }
 
     .footer-menu-link {

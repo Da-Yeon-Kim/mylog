@@ -1,4 +1,5 @@
 import Link from "next/link"
+import { Github, Phone, Mail, ArrowUpRight } from "lucide-react";
 
 export const Footer = () => {
     return (
@@ -8,17 +9,17 @@ export const Footer = () => {
                     <p className="footer-title">연락처</p>
                     <div className="footer-menu">
                         <div className="flex flex-row gap-2 items-center">
-                            <img src="/phone.svg" alt="github" className="w-5 h-5"/>
+                            <Phone className="w-5 h-5"/>
                             <p>010-5218-7733</p>
                         </div>
                         <div className="flex flex-row gap-2 items-center">
-                            <img src="/mail.svg" alt="github" className="w-5 h-5"/>
+                            <Mail className="w-5 h-5"/>
                             <p>hq9mhq@gmail.com</p>
                         </div>
                         <Link href="https://github.com/Da-Yeon-Kim" className="flex flex-row">
-                            <img src="/github.svg" alt="github" className="w-5 h-5 mr-2"/>
+                            <Github className="w-5 h-5 mr-2 text-foreground" />
                             <p>Da-Yeon-Kim</p>
-                            <img src="/arrow_link.svg" alt="github_link" className="w-4 h-4 mt-1.5"/>
+                            <ArrowUpRight className="w-4 h-4 mt-1.5"/>
                         </Link>
                     </div>
                 </div>

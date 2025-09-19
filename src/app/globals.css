@@ -1,16 +1,36 @@
 @import "tailwindcss";
 
-@import "../styles/layouts.css";
+@import "../common/Layout/layouts.css";
 
 :root {
   --background: #ffffff;
   --foreground: #171717;
+  --green1: var(--color-green-300);
+  --green2: var(--color-green-400);
+  --green3: var(--color-green-500);
+  --green4: var(--color-green-600);
+  --green5: var(--color-green-700);
+}
+
+.dark {
+  --background: #0a0a0a;
+  --foreground: #ededed;
+  --green1: var(--color-green-700);
+  --green2: var(--color-green-600);
+  --green3: var(--color-green-500);
+  --green4: var(--color-green-400);
+  --green5: var(--color-green-300);
 }
 
 @theme inline {
   --color-background: var(--background);
   --color-foreground: var(--foreground);
   --color-primary: var(--color-green-600);
+  --color-green1: var(--green1);
+  --color-green2: var(--green2);
+  --color-green3: var(--green3);
+  --color-green4: var(--green4);
+  --color-green5: var(--green5);
   --font-sans: var(--font-geist-sans);
   --font-mono: var(--font-geist-mono);
 }
